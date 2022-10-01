@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: brown;
+
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -15,4 +15,41 @@ body{
     background-size: cover;
     text-align: center;
     overflow: hidden;
+}
+
+.time {
+
+    display: flex;
+}
+
+.time div {
+    background-color: aqua;
+    margin: 5px;
+    position: relative;
+
+}
+
+.clock span {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 70px;
+    background-color: #c3a38e;
+    opacity: .8;
+    color: #603121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .2);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #47322f;
+    color: #c3a38e;
 }
