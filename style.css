@@ -10,22 +10,39 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url('https://images.unsplash.com/photo-1604537529428-15bcbeecfe4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80');
+    background-image: url('https://images.unsplash.com/photo-1657586640569-4a3d4577328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80');
     background-repeat: none;
     background-size: cover;
     text-align: center;
     overflow: hidden;
+    cursor: pointer;
+
+}
+
+h1{
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px rgb(112, 208, 90);
+
 }
 
 .time {
 
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 5px;
+    gap: 15px;
+ 
+
 }
 
 .time div {
     background-color: aqua;
     margin: 5px;
     position: relative;
+
+  
 
 }
 
@@ -35,7 +52,7 @@ body{
     width: 80px;
     height: 70px;
     background-color: #c3a38e;
-    opacity: .8;
+    opacity: 0.8;
     color: #603121;
     display: flex;
     align-items: center;
@@ -43,6 +60,7 @@ body{
     font-size: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .2);
+ 
 }
 
 
@@ -50,7 +68,7 @@ body{
     height: 30px;
     font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     background-color: #47322f;
     color: #c3a38e;
 }
